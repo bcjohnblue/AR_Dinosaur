@@ -611,6 +611,7 @@ GameObject:
   - component: {fileID: 4000012535510824}
   - component: {fileID: 95000010168377982}
   - component: {fileID: -1431652796258735597}
+  - component: {fileID: 8045460367375247323}
   m_Layer: 0
   m_Name: Cartoon_Diplodocus
   m_TagString: Untagged
@@ -671,6 +672,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   rotationSpeed: 100
+--- !u!114 &8045460367375247323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012089708278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac60fcf93284c4ffeb9daa81976ca449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 100000, guid: 2d434559430d5e54183217ebf67f2bba, type: 3}
 --- !u!1 &1000012378896208
 GameObject:
   m_ObjectHideFlags: 0
